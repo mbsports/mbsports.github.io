@@ -2,13 +2,8 @@
 title: F22 TOMCAT
 series: TOMCAT
 msrp: $81,995
-image: /images/f22/f22-home.jpg
-<<<<<<< HEAD
-selector_image: /images/model-selector/f22-selector.png
-builder_id: 9
-=======
 selector_image: /images/model-selector/2017/f22-selector-2017.jpg
->>>>>>> update selector images
+builder_id: 9
 ---
 ###Command the water with the ALL NEW F22 Tomcat###
 
