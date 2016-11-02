@@ -1,9 +1,14 @@
 ---
 title: F21 TOMCAT
 series: TOMCAT
+<<<<<<< HEAD
 msrp: $74,995
 selector_image: /images/model-selector/f21-selector.png
 builder_id: 8
+=======
+msrp: $77,995
+selector_image: /images/model-selector/2017/f21-selector-2017.jpg
+>>>>>>> update selector images
 ---
 ###23' room and muscle in a 21' package.###
 
