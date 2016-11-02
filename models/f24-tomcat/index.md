@@ -3,6 +3,7 @@ title: F24 TOMCAT
 series: TOMCAT
 msrp: $89,995
 selector_image: /images/model-selector/f24-selector.png
+builder_id: 10
 ---
 ###Instant alpha male just add water.###
 

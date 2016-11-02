@@ -9,4 +9,4 @@ video: https://vimeo.com/140976807
 ### MSRP $77,995 ####
 
 *Pricing excludes options, trailers, freight, and dealer prep.
-[ build your own](/builder)
+[ build your own](http://designer.mbsportsusa.com/model/8)

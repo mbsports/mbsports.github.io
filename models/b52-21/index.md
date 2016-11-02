@@ -3,6 +3,7 @@ title: B52 21
 series: B52
 msrp: $74,995
 selector_image: /images/model-selector/b52-21-selector.png
+builder_id: 6
 ---
 ### Open wide and say wow.###
 

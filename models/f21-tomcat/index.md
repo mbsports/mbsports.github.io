@@ -3,6 +3,7 @@ title: F21 TOMCAT
 series: TOMCAT
 msrp: $74,995
 selector_image: /images/model-selector/f21-selector.png
+builder_id: 8
 ---
 ###23' room and muscle in a 21' package.###
 
