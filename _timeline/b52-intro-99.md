@@ -7,4 +7,4 @@ sort_order: 4
 inverted: true
 ---
 
-In 1999 MB Sports exploded onto the wakeboard scene with the all new B52 specifically built to create a massive wakes and challenge even the most advanced riders.
+In 1999 MB Sports exploded onto the wakeboard scene with the all new B52, specifically built to create a massive wakes and challenge even the most advanced riders.
