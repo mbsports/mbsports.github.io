@@ -4,7 +4,7 @@ image: /images/model-gallery/f21/2017/f21-surf1.jpg
 caption-style: light-text
 tag: f21-tomcat
 sort-order: 0
-video: https://vimeo.com/140976807
+video: https://vimeo.com/189983444
 ---
 ### MSRP $77,995 ####
 
