@@ -13,7 +13,7 @@ description: Listed is some of the most frequently asked questions regarding MB 
         customer's.
     </p>
     <ol>
-        {% assign sortedFaqs = site.faqs | sort: "id" %}
+        {% assign sortedFaqs = site.faqs | sort: 'id' %}
         {% for faq in sortedFaqs %}
             {{faq.output}}
         {% endfor %}
