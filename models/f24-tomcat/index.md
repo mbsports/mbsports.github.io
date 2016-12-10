@@ -1,7 +1,10 @@
 ---
 title: F24 TOMCAT
+tag: tomcat-f24
 series: TOMCAT
-msrp: $94,495
+msrp: 
+    US: $94,495
+    AU: AU $131,393
 selector_image: /images/model-selector/2017/f24-selector-2017.jpg
 builder_id: 10
 ---

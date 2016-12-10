@@ -5,7 +5,10 @@ description:  Keep up to date on all events involvoing MB Sports.  Boat Shows, O
 <section class="container padded">
     <h2>Events</h2>
 
-    {% for event in site.events %}
+    {% assign filteredEvents = site.events | where:"country",site.country %}
+    {% for event in filteredEvents %}
         {{event.output}}
+    {% else %}
+        There are no events going on right now. Please check back with us again.
     {% endfor %}
 </section>

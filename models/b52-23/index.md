@@ -1,7 +1,10 @@
 ---
 title: B52 23
+tag: b52-23
 series: B52
-msrp: $85,995
+msrp:
+    US: $85,995
+    AU: AU $126,531
 selector_image: /images/model-selector/2017/b52-23-selector-2017.jpg
 builder_id: 7
 ---

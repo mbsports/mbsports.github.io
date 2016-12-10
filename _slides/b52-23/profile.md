@@ -5,7 +5,8 @@ tag: b52-23
 sort-order: 0
 video: https://vimeo.com/189983443
 ---
-#### MSRP $85,995 ####
+{% assign model_page = site.pages | where:"tag",page.tag | first %}
+#### MSRP {{ model_page.msrp[site.country] }} ####
 
 *Pricing excludes options, trailers, freight, and dealer prep.
 [ build your own](http://designer.mbsportsusa.com/model/7)

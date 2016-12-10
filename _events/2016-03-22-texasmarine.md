@@ -2,6 +2,7 @@
 title: MB Sports adds Texas Marine to it's family of Dealers  
 event_url: http://boatingindustry.com/news/2016/03/18/mb-sports-adds-texas-marine-to-dealer-network/
 image: http://media.channelblade.com/EProWebsiteMedia/8104/tx_rb_12_locations_large(3).jpg
+country: US
 ---
 MB Sports is proud to announce the addition of Texas Marine to the MB Dealer Network.  With 3 locations around the Houston area they will be servicing Southern Texas.
 

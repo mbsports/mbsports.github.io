@@ -1,7 +1,10 @@
 ---
 title: F21 TOMCAT
+tag: tomcat-f21
 series: TOMCAT
-msrp: $77,995
+msrp: 
+    US: $77,995
+    AU: AU $115,669
 selector_image: /images/model-selector/2017/f21-selector-2017.jpg
 builder_id: 8
 ---

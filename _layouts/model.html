@@ -14,7 +14,7 @@
 		{% include navigation.html %}
 
 		<section id="gallery-section" class="top-offset">
-			{% assign modelID = page.title | slugify %}
+			{% assign modelID = page.tag %}
 			{% include carousel.html filter=modelID %}
 		</section>
 
