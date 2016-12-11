@@ -6,10 +6,10 @@
 {% endif %}
 
 <li>
-    <a data-toggle="collapse" href="#faq{{page.id}}" aria-expanded="{{expanded}}" aria-controls="faq{{page.id}}">
+    <a data-toggle="collapse" href="#faq{{page.faqid}}" aria-expanded="{{expanded}}" aria-controls="faq{{page.faqid}}">
         {{page.title}}
     </a>
-    <div class="{{expandedClass}}" id="faq{{page.id}}">
+    <div class="{{expandedClass}}" id="faq{{page.faqid}}">
         <div class="well">
             {{content}}
         </div>
