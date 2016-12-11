@@ -1,0 +1,14 @@
+{% assign slideFilter = {{include.filter}} %}
+{% assign slides = site.slides | where:"tag",slideFilter | sort:"sort-order" %}
+
+<div class="mb-carousel">
+    <a href="#" class="mb-carousel-prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+    <a href="#" class="mb-carousel-next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+    <ul class="itemSlide">
+        {% for slide in slides %}
+            {{ slide.output }}
+        {% else %}
+            <li>there are no items.</li>
+        {% endfor %}
+    </ul>
+</div>

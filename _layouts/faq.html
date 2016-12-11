@@ -1,0 +1,17 @@
+{% assign expanded = false %}
+{% assign expandedClass = "collapse" %}
+{% if page.expanded %}
+    {% assign expanded = true %}
+    {% assign expandedClass = "collapse in" %}
+{% endif %}
+
+<li>
+    <a data-toggle="collapse" href="#faq{{page.id}}" aria-expanded="{{expanded}}" aria-controls="faq{{page.id}}">
+        {{page.title}}
+    </a>
+    <div class="{{expandedClass}}" id="faq{{page.id}}">
+        <div class="well">
+            {{content}}
+        </div>
+    </div>
+</li>

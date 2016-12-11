@@ -1,0 +1,80 @@
+---
+title: Contact us, we want to hear from you.
+description: Send MB Sports an email with your questions or comments.
+layout: default
+---
+
+<script type="text/javascript">
+$(document).ready(function() {
+  var map = new Microsoft.Maps.Map(document.getElementById("factoryMap"), {
+    credentials:"AkjJmqp6qwmipvDKh2qXr_2wplP9hZwvPD5c5r63nan3ziTlbCDP95c2iADXoZ8A",
+    center: new Microsoft.Maps.Location(result.Latitude, result.Longitude),
+    zoom: 7,
+    mapTypeId: Microsoft.Maps.MapTypeId.road
+  });
+}
+</script>
+
+<section class="container padded">
+    <div class="col-sm-6 col-sm-push-6">
+        <div>
+            <iframe width="500" height="281" seamless="seamless" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp=37.335788~-120.602325&amp;pp=37.335788~-120.602325&amp;lvl=16&amp;w=500&amp;h=281&amp;sty=r&amp;typ=d&amp;pp=&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS"></iframe>
+            <div style="margin: 12px 0 0 0;">
+                <a target="_blank" href="http://www.bing.com/maps/?cp=37.335788~-120.602325&amp;sty=r&amp;lvl=16&amp;sp=&amp;mm_embed=map">View Larger Map</a>&nbsp; |&nbsp;
+                <a target="_blank" href="http://www.bing.com/maps/?cp=37.335788~-120.602325&amp;sty=r&amp;lvl=16&amp;rtp=~pos.37.335788_-120.602325____&amp;mm_embed=dir">Get Directions</a>&nbsp; |&nbsp;
+                <a target="_blank" href="http://www.bing.com/maps/?cp=q6pc1c4ygts2&amp;sty=b&amp;lvl=18&amp;sp=&amp;mm_embed=be">View Bird's Eye</a>
+            </div>
+        </div>
+        <h3>Factory Information</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><i class="fa fa-map-marker" style="color:#fe7569" aria-hidden="true"></i> Address</h4>
+                <p>
+                    <a href="{{ site.author.geo }}">
+                        {{ site.author.address }}<br />
+                        {{ site.author.city }}, {{ site.author.state }} {{ site.author.zip }}
+                    </a>
+                </p>
+                <h4><i class="fa fa-phone" aria-hidden="true"></i> Phone</h4>
+                <p>
+                    <span class="tel">{{ site.author.phone }}</span>
+                </p>
+                <h4><i class="fa fa-fax" aria-hidden="true"></i> Fax</h4>
+                <p>
+                    <span class="tel">{{ site.author.fax }}</span>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <h4><i class="fa fa-check" style="color:green" aria-hidden="true"></i> Monday - Friday</h4>
+                <p>
+                    8:30am - 4:30pm
+                </p>
+                <h4><i class="fa fa-times" style="color:red" aria-hidden="true"></i> Saturday</h4>
+                <p>
+                    <em>Closed</em>
+                </p>
+                <h4><i class="fa fa-times" style="color:red" aria-hidden="true"></i> Sunday</h4>
+                <p>
+                    <em>Closed</em>
+                </p>
+            </div>
+        </div>
+        <h3>Stay Connected</h3>
+        <p>
+            Follow us, Like Us, Subscribe to Us.
+        </p>
+        <p>
+            <a target="_blank" href="{{ site.author.facebook }}" style="margin-right: 15px"><i class="fa fa-facebook-official fa-5x" style="color:#3B5998 "></i></a>
+            <a target="_blank" href="{{ site.author.youtube }}" style="margin-right: 15px"><i class="fa fa-youtube-play fa-5x" style="color:#b31217"></i></a>
+            <a target="_blank" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter-square fa-5x" style="color:#55acee"></i></a>
+        </p>
+    </div>
+    <div class="col-sm-6 col-sm-pull-6">
+        <h3>Send us a message</h3>
+        <p>
+            We would love to hear what you have to say.
+        </p>
+        <hr />
+        <iframe width="500" height="800" seamless="seamless" src="http://sophcon-webmailer.azurewebsites.net/mb"></iframe>
+    </div>
+</section>

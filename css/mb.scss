@@ -1,0 +1,245 @@
+---
+sitemap:
+  exclude: 'yes'
+---
+
+@import "variables";
+
+.navbar-brand img {
+	width:150px
+}
+
+.top-offset {
+    margin-top: 2.5em;
+}
+
+section.padded {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	> h2 {
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+	}
+}
+
+.mb-model {
+    &:hover {
+        background-color: $light-grey;
+    	a[href="/builder"] { opacity: 1;}
+    }
+	a[href="/builder"] {
+		opacity: 0;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+    a:active, a:focus { outline-style:  none; }
+}
+
+section a[href="/builder"] {
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 4px;
+
+    &:hover {
+        text-decoration: none;
+        color: $primary-color;
+    }
+
+    &::before {
+        content: "\f013";
+        font-family: FontAwesome;
+        color: $primary-color
+    }
+}
+
+.mb-iframe {
+    height: 539px;
+    width: 830px;
+    overflow: hidden;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	border-bottom: solid 2px red;
+	padding-bottom: 10px
+}
+
+.mb-carousel {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+}
+@include respond-to(mobile) {
+    .mb-carousel {
+        > .mb-carousel-next,
+        > .mb-carousel-prev {
+            display: none;
+        }
+    }
+    ul.itemSlide > li { height: auto; }
+}
+
+@include respond-to(non-mobile) {
+    .mb-carousel {
+        > .mb-carousel-next,
+        > .mb-carousel-prev {
+            position: absolute;
+            top: 50%;
+            margin-top: -.9em;
+            font-size: 1.8em;
+            box-sizing: border-box;
+            padding: 2px 8px;
+            color: rgba($trans-primary-color, .25);
+            z-index: 1000;
+        }
+
+        > .mb-carousel-prev {
+            right: auto;
+            left: 0;
+        }
+
+        > .mb-carousel-next {
+            right: 0;
+            left: auto;
+        }
+
+        > .mb-carousel-next:hover,
+        > .mb-carousel-prev:hover {
+            background-color: white;
+            color: $primary-color;
+        }
+    }
+
+    ul.itemSlide {
+    	height: 56vw;
+    	overflow: hidden;
+
+    	/*Add if you want to disable the option of selecting the text while sliding*/
+    	-webkit-user-select: none;
+    	-moz-user-select: none;
+    	-ms-user-select: none;
+    	user-select: none;
+
+    	-webkit-transform-style: preserve-3d;
+    	-ms-transform-style: preserve-3d;
+    	transform-style: preserve-3d;
+
+    	> li {
+    		float: left;
+    		height: 100%;
+    	}
+
+    	.caption {
+    		margin: 50px 15px 15px 15px;
+    		position: absolute;
+    		left: 0;
+    		top: 0;
+    		width: 40%;
+    		padding: 20px;
+    	}
+
+    	.bottom {
+    		top: auto;
+    		bottom: 0px;
+    	}
+
+    	.right {
+    		left: auto;
+    		right: 0
+    	}
+
+    	.left {
+    		left: 0;
+    	}
+
+    	.narrow {
+    		width: 33%;
+    	}
+
+        .full {
+            width: 100%;
+        }
+
+    	.centered {
+    		margin: auto;
+    		left: 0;
+    		right: 0;
+    		top: 0;
+    		bottom: 0;
+    	}
+    }
+}
+
+ul.itemSlide {
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    > li {
+        position: relative;
+    }
+    .video {
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+        height:140px;
+        width:140px;
+
+        > a > i.fa { color: rgba($trans-primary-color, .25); font-size: 160px; }
+        > a > i.fa:hover { color: $primary-color }
+    }
+
+    .caption {
+        padding: 20px;
+    }
+
+    .no-title > h2 { display: none; }
+    .no-caption > p { display: none; }
+
+    .accent-box {
+        background-color: $trans-primary-color;
+    }
+
+    .accent-box-2 {
+        background-color: $trans-secondary-color;
+        color: white;
+    }
+
+    .light-box {
+        background-color: rgba(255, 255, 255, .85);
+    }
+
+	.light-text,
+    .light-text h2 {
+		color: white;
+	}
+
+    .v-centered {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+footer {
+	.first {
+        background-color: $light-grey;
+        padding: 25px 0 20px 0 }
+	.second {background-color: $primary-color; padding: 5px 0 10px 0; color: #fff }
+}
+
+iframe[seamless]{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}

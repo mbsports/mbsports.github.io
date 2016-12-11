@@ -1,0 +1,26 @@
+$primary-color: rgb(240, 11, 11);
+$secondary-color: rgb(147, 149, 152);
+$light-grey: rgb(199, 200, 202);
+$text-color: rgb(0, 0, 0);
+
+$trans-primary-color: rgba($primary-color, .85);
+$trans-secondary-color: rgba($secondary-color, .85);
+
+$break-mobile: 768px;
+$break-desktop: 1024px;
+$break-uhd: 1920px;
+
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $break-mobile) { @content; }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: $break-mobile + 1) and (max-width: $break-uhd - 1) { @content; }
+  }
+  @else if $media == uhd {
+    @media only screen and (min-width: $break-uhd) { @content; }
+  }
+  @else if $media == non-mobile {
+    @media only screen and (min-width: $break-mobile + 1) { @content; }
+  }
+}

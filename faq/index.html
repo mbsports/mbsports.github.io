@@ -1,0 +1,21 @@
+---
+title: Frequently Asked Questions (FAQ)
+description: Listed is some of the most frequently asked questions regarding MB Sports Boats.
+---
+<section class="container padded">
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <p>
+        Recently we have had questions regarding usage, serviceability and
+        some of the specialized components that are a part of your MB Sports
+        Tournament Towboat. Listed below are the questions that are most
+        frequently asked and the recommendations we feel are appropriate.
+        These are recommendations; the final decision is ultimately the
+        customer's.
+    </p>
+    <ol>
+        {% assign sortedFaqs = site.faqs | sort: "id" %}
+        {% for faq in sortedFaqs %}
+            {{faq.output}}
+        {% endfor %}
+    </ol>
+</section>

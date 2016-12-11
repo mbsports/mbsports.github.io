@@ -1,0 +1,11 @@
+---
+title: Downloads
+description: Download the newest MB Sports Brochure, Warranty or Owners Manual.
+---
+
+<section class="container padded">
+    <h2>Downloads</h2>
+    {% for download in site.downloads %}
+    {{ download.output }}
+    {% endfor %}
+</section>

@@ -1,0 +1,75 @@
+domain: mbsportsusa.com
+url: http://mbsportsusa.com
+baseurl: ''
+title: MB Sports
+author:
+    twitter: mbboats
+    facebook: 'https://www.facebook.com/pages/MB-Sports/27007898003'
+    youtube: 'http://www.youtube.com/user/mbsportsvideos'
+    phone: '209.357.4153'
+    fax: '209.357.4155'
+    address: '280 Air Park Road'
+    city: 'Atwater'
+    state: 'CA'
+    zip: '95301'
+    geo: 'geo:37.335788,-120.602325'
+
+bing-maps-key: "Agcek4i_ccZ-8fu_eYVCAJar1L3v6pr_bf7D2J2NQisJz98Cntz6nVVT1V2QQ-Kq"
+
+collections:
+  - events
+  - slides
+  - faqs
+  - timeline
+  - downloads
+
+sass:
+    style: :compressed
+
+markdown: kramdown
+js_dest: scripts
+
+image_targets:
+  - name: "mobile"
+    media: "(max-width: 768px)"
+  - name: "uhd"
+    media: "(min-width: 1921px)"
+
+defaults:
+  - scope:
+      path: ""
+      type: slides
+    values:
+      layout: slide
+      ratio_2x: true
+      ratio_4x: true
+      render_targets: true
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+  - scope:
+      page: ""
+      type: faqs
+    values:
+      layout: faq
+  - scope:
+      page: ""
+      type: timeline
+    values:
+      layout: timeline
+  - scope:
+      page: ""
+      type: downloads
+    values:
+      layout: download
+  - scope:
+      path: "models"
+    values:
+      layout: model
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
