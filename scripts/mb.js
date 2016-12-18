@@ -20,9 +20,8 @@ $(function() {
 
         if (hash === "#find-dealer") {
             animatedScroll(0, function() {
-                var homeSlide = $("#home-section ul.itemSlide")
-                homeSlide.itemslide()
-                homeSlide.gotoSlide(2)
+                $("#home-carousel").carousel('pause')
+                $("#home-carousel").carousel(2)
             })
         }
     }
