@@ -87,6 +87,13 @@ h2 {
             &.light-box {
                 background-color: rgba(255, 255, 255, .85);
             }
+            &.accent-box.light-text,
+            &.accent-box.light-text h2, 
+            &.light-box.light-text,
+            &.light-box.light-text h2 
+            {
+                color: white;
+            }
         }
         > .video {
             position:absolute;
@@ -141,10 +148,6 @@ h2 {
             &.v-centered {
                 display: table-cell;
                 vertical-align: middle;
-            }
-            &.light-text,
-            &.light-text h2 {
-                color: white;
             }
     	}
         > .video {
