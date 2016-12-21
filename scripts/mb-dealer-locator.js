@@ -4,19 +4,19 @@ sitemap:
 layout: none
 ---
 $(function() {
-    var requestDealer = $("#requestDealer")
-    $("#dealerResults").hide()
-    $("#tryAgain").hide()
+    var requestDealer = $(".mbDealerRequest")
+    $(".mbDealerResults").hide()
+    $(".mbDealerTryAgain").hide()
 
-    requestDealer.bind("submit", function(e) {
+    requestDealer.bind("submit", function(e, sender) {
         e.preventDefault()
-        findDealerByPostalCode($("#dlPostalCode").val())
+        findDealerByPostalCode($(this).find(".mbDealerPostalCode").val())
     })
 
     if (!navigator.geolocation) {
-        $("#locate").hide()
+        $(".mbDealerLocate").hide()
     } else {
-        $("#locate").bind("click", function(e) {
+        $(".mbDealerLocate").bind("click", function(e) {
             e.preventDefault()
 
             var successHandler = function (pos) {
@@ -30,13 +30,13 @@ $(function() {
         })
     }
 
-    $("#tryAgain").click(function() {
-        $("#requestDealer").show()
-        $("#dealerResults")
+    $(".mbDealerTryAgain").click(function() {
+        $(".mbDealerRequest").show()
+        $(".mbDealerResults")
             .hide()
             .html("")
-        $("#tryAgain").hide()
-        $("#dlPostalCode")
+        $(".mbDealerTryAgain").hide()
+        $(".mbDealerPostalCode")
             .focus()
             .val("")
     })
@@ -73,16 +73,18 @@ var displayDealerSearchResults = function(data){
         .replace(/{fax}/, result.Fax)
         .replace(/{email}/, result.Email)
 
-    $("#dealerResults").html(dealerTemplate).show()
-    $("#tryAgain").show()
-    $("#requestDealer").hide()
+    $(".mbDealerResults").html(dealerTemplate).show()
+    $(".mbDealerTryAgain").show()
+    $(".mbDealerRequest").hide()
 
-    var map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), {
-        credentials:"{{site.bing-maps-key}}",
-        center: new Microsoft.Maps.Location(result.Latitude, result.Longitude),
-        zoom: 7,
-        mapTypeId: Microsoft.Maps.MapTypeId.road
-        })
+    $(".mbDealerMap").each(function() {
+        var map = new Microsoft.Maps.Map(this, {
+            credentials:"{{site.bing-maps-key}}",
+            center: new Microsoft.Maps.Location(result.Latitude, result.Longitude),
+            zoom: 7,
+            mapTypeId: Microsoft.Maps.MapTypeId.road
+            })
+    })
 }
 
 var MakeServiceRequest = function(request) {

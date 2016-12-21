@@ -1,7 +1,7 @@
 <div>
     <div class="panel panel-primary col-sm-10 col-md-8 col-lg-5">
         <div class="panel-body">
-            <form id="requestDealer">
+            <form class="mbDealerRequest">
                 <h2>Your MB journey starts here.</h2>
                 <p>
                     Every journey has a starting point. Let us connect you with a
@@ -10,23 +10,23 @@
                 </p>
                 <label for="dlPostalCode" class="sr-only">Postal Code</label>
                 <div class="input-group">
-                    <input id="dlPostalCode" type="text" placeholder="Postal Code" class="form-control" />
+                    <input type="text" placeholder="Postal Code" class="form-control mbDealerPostalCode" />
                     <div class="input-group-btn">
-                        <button type="button" class="btn btn-default" id="locate"><i class="fa fa-lg fa-crosshairs"></i></button>
+                        <button type="button" class="btn btn-default mbDealerLocate"><i class="fa fa-lg fa-crosshairs"></i></button>
                         <button type="submit" class="btn btn-primary">Find <i class="glyphicon glyphicon-menu-right"></i></button>
                     </div>
                 </div>
             </form>
-            <div id="dealerResults"></div>
+            <div class="mbDealerResults"></div>
         </div>
-        <div class="panel-footer" id="tryAgain">
+        <div class="panel-footer" class="mbDealerTryAgain">
             <button type="button" class="btn btn-primary pull-right">Try Again</button>
         </div>
     </div>
 </div>
 <script type="text/template" id="dealerResultTemplate">
   <div class="col-md-6 hidden-sm hidden-xs">
-  	<div id='mapDiv' style="width:95%; height: 325px"></div>
+  	<div class="mbDealerMap" style="width:95%; height: 325px"></div>
   </div>
   <div class="col-md-6 col-sm-12">
     <img src="{imageUrl}" alt="{dealerName} logo." />
