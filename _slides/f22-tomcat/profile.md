@@ -9,4 +9,4 @@ video: https://vimeo.com/189983445
 #### MSRP {{ model_page.msrp[site.country] }} ####
 
 *Pricing excludes options, trailers, freight, and dealer prep.
-[ build your own](http://designer.mbsportsusa.com/model/9)
+[ build your own]({{ site.designer_base_url }}/model/9)

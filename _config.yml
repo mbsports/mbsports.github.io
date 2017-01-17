@@ -1,6 +1,7 @@
 domain: mbsportsusa.com
 url: http://mbsportsusa.com
 baseurl: ''
+designer_base_url: 'http://designer.mbsportsusa.com'
 title: MB Sports
 country: 'US'
 author:

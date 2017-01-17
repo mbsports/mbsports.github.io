@@ -1,6 +1,7 @@
 domain: mbboatsaustralia.com.au
 url: http://mbboatsaustralia.com.au
 baseurl: ''
+designer_base_url: 'http://designer.mbboatsaustralia.com.au'
 title: MB Sports Austrailia
 country: 'AU'
 author:

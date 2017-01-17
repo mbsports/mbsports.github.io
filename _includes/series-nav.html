@@ -12,7 +12,7 @@
 				<h3>{{model.title}}</h3>
 				{% include picture.html src=model.selector_image alt=page.title ratio_2x=true ratio_4x=true render_targets=false %}
 			</a>
-			<a href="http://designer.mbsportsusa.com/model/{{model.builder_id}}"> Build Your Own</a>
+			<a href="{{ site.designer_base_url }}/model/{{model.builder_id}}"> Build Your Own</a>
 	</div>
 {% endfor %}
 </div>
