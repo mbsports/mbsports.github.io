@@ -30,18 +30,18 @@ $(document).ready(function() {
             <div class="col-sm-6">
                 <h4><i class="fa fa-map-marker" style="color:#fe7569" aria-hidden="true"></i> Address</h4>
                 <p>
-                    <a href="geo:{{site.author.geo.long}},{{site.author.geo.lat}}">
+                    <a href="geo://{{site.author.geo.long}},{{site.author.geo.lat}}">
                         {{ site.author.address }}<br />
                         {{ site.author.city }}, {{ site.author.state }} {{ site.author.zip }}
                     </a>
                 </p>
                 <h4><i class="fa fa-phone" aria-hidden="true"></i> Phone</h4>
                 <p>
-                    <span class="tel">{{ site.author.phone }}</span>
+                    <a href="tel://{{ site.author.phone | replace: " ", "" | replace: "-", "" | replace: ".", "" }}">{{ site.author.phone }}</a>
                 </p>
                 <h4><i class="fa fa-fax" aria-hidden="true"></i> Fax</h4>
                 <p>
-                    <span class="tel">{{ site.author.fax }}</span>
+                    <a href="tel://{{ site.author.fax | replace: " ", "" | replace: "-", "" | replace: ".", "" }}">{{ site.author.fax }}</a>
                 </p>
             </div>
             <div class="col-sm-6">

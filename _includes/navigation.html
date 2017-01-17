@@ -24,7 +24,8 @@
 		<li><a href="{{prefix}}#standards">Our Standards</a></li>
 		<li><a href="{{prefix}}#models">Models</a></li>
 		<li{% if page.url == "/about/index.html" %} class="active"{% endif %}><a href="/about">About Us</a></li>
-		<li><a href="{{prefix}}#find-dealer">Find a Dealer</a></li>
+		{% if site.country == "US" %}<li><a href="{{prefix}}#find-dealer">Find a Dealer</a></li>{% endif %}
+		{% if site.country == "AU" %}<li><a href="/our-locations">Our Locations</a></li>{% endif %}
 		<li><a href="http://designer.mbsportsusa.com">Build Your MB</a></li>
 	  </ul>
 	</div><!-- /.navbar-collapse -->
