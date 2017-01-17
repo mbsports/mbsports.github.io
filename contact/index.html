@@ -18,11 +18,11 @@ $(document).ready(function() {
 <section class="container padded">
     <div class="col-sm-6 col-sm-push-6">
         <div>
-            <iframe width="500" height="281" seamless="seamless" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp=37.335788~-120.602325&amp;pp=37.335788~-120.602325&amp;lvl=16&amp;w=500&amp;h=281&amp;sty=r&amp;typ=d&amp;pp=&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS"></iframe>
+            <iframe width="500" height="281" seamless="seamless" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp={{site.author.geo.long}}~{{site.author.geo.lat}}&amp;pp={{site.author.geo.long}}~{{site.author.geo.lat}}&amp;lvl=16&amp;w=500&amp;h=281&amp;sty=r&amp;typ=d&amp;pp=&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS"></iframe>
             <div style="margin: 12px 0 0 0;">
-                <a target="_blank" href="http://www.bing.com/maps/?cp=37.335788~-120.602325&amp;sty=r&amp;lvl=16&amp;sp=&amp;mm_embed=map">View Larger Map</a>&nbsp; |&nbsp;
-                <a target="_blank" href="http://www.bing.com/maps/?cp=37.335788~-120.602325&amp;sty=r&amp;lvl=16&amp;rtp=~pos.37.335788_-120.602325____&amp;mm_embed=dir">Get Directions</a>&nbsp; |&nbsp;
-                <a target="_blank" href="http://www.bing.com/maps/?cp=q6pc1c4ygts2&amp;sty=b&amp;lvl=18&amp;sp=&amp;mm_embed=be">View Bird's Eye</a>
+                <a target="_blank" href="http://www.bing.com/maps/?cp={{site.author.geo.long}}~{{site.author.geo.lat}}&amp;sty=r&amp;lvl=16&amp;sp=&amp;mm_embed=map">View Larger Map</a>&nbsp; |&nbsp;
+                <a target="_blank" href="http://www.bing.com/maps/?cp={{site.author.geo.long}}~{{site.author.geo.lat}}&amp;sty=r&amp;lvl=16&amp;rtp=~pos.{{site.author.geo.long}}_{{site.author.geo.lat}}____&amp;mm_embed=dir">Get Directions</a>&nbsp; |&nbsp;
+                <a target="_blank" href="http://www.bing.com/maps/?cp={{site.author.geo.long}}~{{site.author.geo.lat}}&amp;sty=b&amp;lvl=18&amp;sp=&amp;mm_embed=be">View Bird's Eye</a>
             </div>
         </div>
         <h3>Factory Information</h3>
@@ -30,7 +30,7 @@ $(document).ready(function() {
             <div class="col-sm-6">
                 <h4><i class="fa fa-map-marker" style="color:#fe7569" aria-hidden="true"></i> Address</h4>
                 <p>
-                    <a href="{{ site.author.geo }}">
+                    <a href="geo:{{site.author.geo.long}},{{site.author.geo.lat}}">
                         {{ site.author.address }}<br />
                         {{ site.author.city }}, {{ site.author.state }} {{ site.author.zip }}
                     </a>

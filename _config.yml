@@ -13,7 +13,9 @@ author:
     city: 'Atwater'
     state: 'CA'
     zip: '95301'
-    geo: 'geo:37.335788,-120.602325'
+    geo:
+        long: '37.335788'
+        lat: '-120.602325'
 
 bing-maps-key: "Agcek4i_ccZ-8fu_eYVCAJar1L3v6pr_bf7D2J2NQisJz98Cntz6nVVT1V2QQ-Kq"
 

@@ -13,7 +13,10 @@ author:
     city: 'Shepparton'
     state: 'Victoria'
     zip: ''
-    geo: 'geo:-36.350621,145.401179'
+    geo:
+        long: '-36.350621'
+        lat: '145.401179'
+    
 
 bing-maps-key: "Agcek4i_ccZ-8fu_eYVCAJar1L3v6pr_bf7D2J2NQisJz98Cntz6nVVT1V2QQ-Kq"
 
