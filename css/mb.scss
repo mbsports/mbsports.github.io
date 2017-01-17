@@ -149,6 +149,11 @@ h2 {
                 display: table-cell;
                 vertical-align: middle;
             }
+            &.light-text,
+            &.light-text h2
+            {
+                color: white;
+            }            
     	}
         > .video {
             top:50%;
