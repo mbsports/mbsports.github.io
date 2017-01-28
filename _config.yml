@@ -5,6 +5,7 @@ designer_base_url: 'http://designer.mbsportsusa.com'
 title: MB Sports
 country: 'US'
 author:
+    contact_form: http://sophcon-webmailer.azurewebsites.net/mb
     twitter: mbboats
     facebook: 'https://www.facebook.com/pages/MB-Sports/27007898003'
     youtube: 'http://www.youtube.com/user/mbsportsvideos'
