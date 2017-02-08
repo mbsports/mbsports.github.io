@@ -1,23 +1,24 @@
-domain: mbsportsusa.com
-url: http://mbsportsusa.com
+domain: mbboatsaustralia.com.au
+url: http://mbboatsaustralia.com.au
 baseurl: ''
-designer_base_url: 'http://designer.mbsportsusa.com'
-title: MB Sports
-country: 'US'
+designer_base_url: 'http://designer.mbboatsaustralia.com.au'
+title: MB Sports Austrailia
+country: 'AU'
 author:
-    contact_form: http://sophcon-webmailer.azurewebsites.net/mb
+    contact_form: http://sophcon-webmailer.azurewebsites.net/mb/aus
     twitter: mbboats
-    facebook: 'https://www.facebook.com/pages/MB-Sports/27007898003'
+    facebook: 'https://www.facebook.com/MBBoatsAustralia'
     youtube: 'http://www.youtube.com/user/mbsportsvideos'
-    phone: '209.357.4153'
-    fax: '209.357.4155'
-    address: '280 Air Park Road'
-    city: 'Atwater'
-    state: 'CA'
-    zip: '95301'
+    phone: '+61 03 5822 2108'
+    fax: ''
+    address: '207 Numurkah Road'
+    city: 'Shepparton'
+    state: 'Victoria'
+    zip: ''
     geo:
-        long: '37.335788'
-        lat: '-120.602325'
+        long: '-36.350621'
+        lat: '145.401179'
+    
 
 bing-maps-key: "Agcek4i_ccZ-8fu_eYVCAJar1L3v6pr_bf7D2J2NQisJz98Cntz6nVVT1V2QQ-Kq"
 
