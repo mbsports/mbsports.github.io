@@ -8,5 +8,4 @@ video: https://vimeo.com/189983445
 {% assign model_page = site.pages | where:"tag",page.tag | first %}
 #### MSRP {{ model_page.msrp[site.country] }} ####
 
-*Pricing excludes options, trailers, freight, and dealer prep.
 [ build your own]({{ site.designer_base_url }}/model/9)
