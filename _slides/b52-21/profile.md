@@ -6,6 +6,5 @@ sort-order: 0
 video: https://vimeo.com/189983442
 ---
 {% assign model_page = site.pages | where:"tag",page.tag | first %}
-#### MSRP {{ model_page.msrp[site.country] }} ####
 
 [ build your own]({{ site.designer_base_url }}/model/6)
