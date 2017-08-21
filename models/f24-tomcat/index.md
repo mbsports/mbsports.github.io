@@ -3,10 +3,10 @@ title: F24 TOMCAT
 tag: tomcat-f24
 series: TOMCAT
 msrp: 
-    US: $94,495
+    US: $99,220
     AU: AU $131,393
 selector_image: /images/model-selector/2017/f24-selector-2017.jpg
-builder_id: 10
+builder_id: 8312
 ---
 ###Instant alpha male just add water.###
 

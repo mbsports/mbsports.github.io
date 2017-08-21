@@ -3,10 +3,10 @@ title: B52 21
 tag: b52-21
 series: B52
 msrp:
-    US: $77,995
+    US: $81,895
     AU: AU $115,669
 selector_image: /images/model-selector/2017/b52-21-selector-2017.jpg
-builder_id: 6
+builder_id: 5447
 ---
 ### Open wide and say wow.###
 
