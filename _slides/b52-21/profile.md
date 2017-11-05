@@ -1,6 +1,6 @@
 ---
 title: B52 21
-image: /images/model-gallery/b52-21/2017/b21-boat2.jpg
+image: /images/model-gallery/2018/b21/2018-b21-09.jpg
 tag: b52-21
 sort-order: 0
 video: https://www.youtube.com/watch?v=KzxwboOodVo

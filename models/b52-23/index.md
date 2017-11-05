@@ -5,7 +5,7 @@ series: B52
 msrp:
     US: $90,295
     AU: AU $126,531
-selector_image: /images/model-selector/2017/b52-23-selector-2017.jpg
+selector_image: /images/model-selector/2018/b23.jpg
 builder_id: 6364
 ---
 ### Come one, Come ALL! ###

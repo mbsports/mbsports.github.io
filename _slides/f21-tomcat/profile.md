@@ -1,6 +1,6 @@
 ---
 title: F21 TOMCAT
-image: /images/model-gallery/f21/2017/f21-surf1.jpg
+image: /images/model-gallery/2018/f21/2018-f21-08.jpg
 caption-style: light-text
 tag: tomcat-f21
 sort-order: 0

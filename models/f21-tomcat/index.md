@@ -5,7 +5,7 @@ series: TOMCAT
 msrp: 
     US: $81,895
     AU: AU $115,669
-selector_image: /images/model-selector/2017/f21-selector-2017.jpg
+selector_image: /images/model-selector/2018/f21.jpg
 builder_id: 6918
 ---
 ###23' room and muscle in a 21' package.###

@@ -1,6 +1,6 @@
 ---
 title: F24 TOMCAT
-image: /images/model-gallery/f24/2017/f24-surf1.jpg
+image: /images/model-gallery/2018/f24/2018-f24-08.jpg
 caption-style: accent-box narrow light-text
 tag: tomcat-f24
 sort-order: 0
