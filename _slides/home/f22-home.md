@@ -5,4 +5,4 @@ tag: home
 video: https://www.youtube.com/watch?v=GlRiSiWxcxA
 caption-style: right light-text
 ---
-MB Sports has always been synonymous with quality.  We've continued our commitment to the art of boat making in 2016 with the release of our totally redesigned B52 21.
+MB Sports has always been synonymous with quality.  We've continued our commitment to the art of boat making with the release of our totally redesigned B52 21.
