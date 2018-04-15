@@ -1,7 +1,7 @@
 ---
 title: Victory Party
 time: 1974
-image_url: /images/history/history4.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history4.jpg
 image_alt: Image of Irv and Mike Brendel.
 sort_order: 1
 ---

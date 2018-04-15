@@ -1,7 +1,7 @@
 ---
 title: The First MB
 time: August 1993
-image_url: /images/history/history1.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history1.jpg
 image_alt: Image of the 'Kermit' boat.
 sort_order: 2
 inverted: true

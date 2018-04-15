@@ -1,6 +1,6 @@
 ---
 title: Color Matched Fiberglass Speaker Boxes
-image: /images/standards/speaker-boxes.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/speaker-boxes.jpg
 caption-style: accent-box-2 narrow
 tag: standard
 ---

@@ -1,6 +1,6 @@
 ---
 title: F22 TOMCAT
-image: /images/model-gallery/2018/f22/2018-f22-07.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/model-gallery/2018/f22/2018-f22-07.jpg
 tag: tomcat-f22
 sort-order: 0
 video: https://www.youtube.com/watch?v=JjU_DaCMVUo

@@ -1,6 +1,6 @@
 ---
 title: F24 TOMCAT
-image: /images/model-gallery/2018/f24/2018-f24-08.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/model-gallery/2018/f24/2018-f24-08.jpg
 caption-style: accent-box narrow light-text
 tag: tomcat-f24
 sort-order: 0

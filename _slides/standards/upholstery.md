@@ -1,6 +1,6 @@
 ---
 title: Tailored Upholstery with Endless Options
-image: /images/standards/upholstery.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/upholstery.jpg
 caption-style: accent-box-2 narrow
 tag: standard
 ---

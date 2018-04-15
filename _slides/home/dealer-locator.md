@@ -1,7 +1,7 @@
 ---
 title: Dealer Locator
 tag: home
-image: /images/home-2017-slide3.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/home-2017-slide3.jpg
 sort-order: 2
 caption-style: full no-title
 ---

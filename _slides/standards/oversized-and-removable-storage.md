@@ -1,6 +1,6 @@
 ---
 title: Oversized and Removable Storage Compartments
-image: /images/standards/removable-storage.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/removable-storage.jpg
 caption-style: narrow bottom right accent-box-2
 tag: standard
 ---

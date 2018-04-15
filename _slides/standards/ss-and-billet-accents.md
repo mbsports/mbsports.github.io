@@ -1,6 +1,6 @@
 ---
 title: Stainless Steel and Billet Aluminum Accents
-image: /images/standards/2017/ss-billet2017.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/2017/ss-billet2017.jpg
 caption-style: accent-box light-text narrow
 tag: standard
 ---

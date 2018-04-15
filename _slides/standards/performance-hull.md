@@ -1,6 +1,6 @@
 ---
 title: Performance Driven Hull Design
-image: /images/standards/2017/performance-hull2017.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/2017/performance-hull2017.jpg
 caption-style: right narrow accent-box light-text
 tag: standard
 ---

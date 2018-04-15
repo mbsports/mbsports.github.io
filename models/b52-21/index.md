@@ -5,7 +5,7 @@ series: B52
 msrp:
     US: $81,895
     AU: AU $115,669
-selector_image: /images/model-selector/2018/b21.jpg
+selector_image: https://mbsportsstorage.blob.core.windows.net/website-images/model-selector/2018/b21.jpg
 builder_id: 5447
 ---
 ### Open wide and say wow.###

@@ -1,7 +1,7 @@
 ---
 title: The Early Days
 time: 1994
-image_url: /images/history/history3.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history3.jpg
 image_alt: Image of Irv and Caren Brendel on factory floor.
 sort_order: 3
 ---

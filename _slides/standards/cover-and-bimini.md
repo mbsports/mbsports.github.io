@@ -1,6 +1,6 @@
 ---
 title: Boat Covers and Bimini Tops
-image: /images/standards/2017/bimini-2017.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/2017/bimini-2017.jpg
 caption-style: accent-box-2 bottom narrow
 tag: standard
 ---

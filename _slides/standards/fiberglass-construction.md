@@ -1,6 +1,6 @@
 ---
 title: Hand Laid Fiberglass Construction with Vinylester Resin
-image: /images/standards/fiberglass.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/fiberglass.jpg
 caption-style: accent-box narrow light-text
 tag: standard
 ---

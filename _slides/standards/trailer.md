@@ -1,6 +1,6 @@
 ---
 title: Boatmate Tandem Axle Trailers
-image: /images/standards/2017/trailer-2017.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/2017/trailer-2017.jpg
 caption-style: accent-box light-text narrow
 tag: standard
 ---

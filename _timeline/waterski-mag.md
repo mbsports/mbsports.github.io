@@ -1,7 +1,7 @@
 ---
 title: National Notoriety
 time: 2006
-image_url: /images/history/history7.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history7.jpg
 image_alt: Image of B52 V Drive
 sort_order: 6
 inverted: true

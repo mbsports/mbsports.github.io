@@ -1,6 +1,6 @@
 ---
 title: Custom Gelcoat Graphics
-image: /images/standards/gelcoat.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/gelcoat.jpg
 caption-style: narrow right accent-box-2
 tag: standard
 ---

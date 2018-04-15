@@ -1,7 +1,7 @@
 ---
 title: The Legend Continues...
 time: 2000
-image_url: /images/history/history6.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history6.jpg
 image_alt: Image of B52 V Drive
 sort_order: 5
 ---

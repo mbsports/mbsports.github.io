@@ -1,6 +1,6 @@
 ---
 title: Build Your MB
-image: /images/dab.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/dab.jpg
 tag: home
 sort-order: 0
 caption-style: bottom right light-box

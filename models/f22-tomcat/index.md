@@ -5,7 +5,7 @@ series: TOMCAT
 msrp: 
     US: $86,095
     AU: AU $121,336
-selector_image: /images/model-selector/2018/f22.jpg
+selector_image: https://mbsportsstorage.blob.core.windows.net/website-images/model-selector/2018/f22.jpg
 builder_id: 7592
 ---
 ###Command the water with the ALL NEW F22 Tomcat###

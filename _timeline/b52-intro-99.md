@@ -1,7 +1,7 @@
 ---
 title: A Legend is Born
 time: 1999
-image_url: /images/history/history5.jpg
+image_url: https://mbsportsstorage.blob.core.windows.net/website-images/history/history5.jpg
 image_alt: Image of B52 Direct Drive
 sort_order: 4
 inverted: true

@@ -1,6 +1,6 @@
 ---
 title: Zero Off GPS Cruise Control
-image: /images/standards/billet-dash.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/billet-dash.jpg
 caption-style: narrow right accent-box light-text
 tag: standard
 ---

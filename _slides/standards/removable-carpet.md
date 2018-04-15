@@ -1,6 +1,6 @@
 ---
 title: Removable Carpet
-image: /images/standards/removable-carpet.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/removable-carpet.jpg
 caption-style: light-box narrow
 tag: standard
 ---

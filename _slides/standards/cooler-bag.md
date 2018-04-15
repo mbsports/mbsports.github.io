@@ -1,6 +1,6 @@
 ---
 title: Official MB Sports Cooler Bag by AO Coolers
-image: /images/standards/cooler-bag.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/cooler-bag.jpg
 caption-style: accent-box-2 bottom narrow
 tag: standard
 ---

@@ -1,6 +1,6 @@
 ---
 title: Quick Fill Ballast for Professional Size Wakes
-image: /images/standards/quick-fill-ballast.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/quick-fill-ballast.jpg
 caption-style: right light-text narrow
 tag: standard
 ---

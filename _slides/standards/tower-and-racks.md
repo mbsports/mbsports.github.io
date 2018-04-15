@@ -1,6 +1,6 @@
 ---
 title: Fully Billet Tower with Swivel Racks
-image: /images/standards/2017/standards-tower.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/2017/standards-tower.jpg
 caption-style: narrow bottom right accent-box-2
 tag: standard
 ---

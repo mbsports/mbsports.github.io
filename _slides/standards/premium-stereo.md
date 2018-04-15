@@ -1,6 +1,6 @@
 ---
 title: Premium Stereo Components from Exile Audio
-image: /images/standards/exile.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/standards/exile.jpg
 caption-style: accent-box light-text narrow
 tag: standard
 ---

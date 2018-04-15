@@ -1,6 +1,6 @@
 ---
 title: B52 23
-image: /images/model-gallery/2018/b23/2018-b23-11.jpg
+image: https://mbsportsstorage.blob.core.windows.net/website-images/model-gallery/2018/b23/2018-b23-11.jpg
 tag: b52-23
 sort-order: 0
 video: https://www.youtube.com/watch?v=KzxwboOodVo
