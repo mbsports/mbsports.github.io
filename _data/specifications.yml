@@ -1,0 +1,49 @@
+f21-tomcat:
+  Length: 20' 10/ 6.34 M
+  Beam: 100" / 2.54 M
+  Draft: 22" / 0.56 M
+  Weight: 3,900 lbs / 1,769 kg
+  Fuel: 65 gal. / 246 L
+  Seating: 14 Persons
+  Ballast: 1,800 lbs. / 816 kg
+  Engine: INDMAR Raptor 6.2L 400
+
+f22-tomcat:
+  Length: 22' / 6.70 M
+  Beam: 100" / 2.54 M
+  Draft: 22" / 0.56 M
+  Weight: 4,100 lbs. / 1,860 kg
+  Fuel: 65 gal. / 246 L
+  Seating: 14 Persons
+  Ballast: 2,800 lbs. / 1270 kg
+  Engine: INDMAR Raptor 6.2L 400
+
+f24-tomcat:
+  Length: 24' / 7.32 M
+  Beam: 102" / 2.59 M
+  Draft: 22" / 0.56 M
+  Weight: 4,400 lbs. / 1,928 kg
+  Fuel: 65 gal. / 246 L
+  Seating: 16 Persons
+  Ballast: 2,400 lbs. / 1,089 kg
+  Engine: INDMAR Raptor 6.2L 400
+
+b52-21:
+  Length: 21' / 6.40 M
+  Beam: 100" / 2.54 M
+  Draft: 22" / 0.56 M
+  Weight: 3,900 lbs. / 1,769 kg
+  Fuel: 65 gal. / 246 L
+  Seating: 14 Persons
+  Ballast: 1,800 lbs. / 816 kg
+  Engine: INDMAR Raptor 6.2L 400
+
+b52-23:
+  Length: 23' / 7.01 M
+  Beam: 100" / 2.54 M
+  Draft: 22" / 0.56 M
+  Weight: 4,300 lbs. / 1,950 kg
+  Fuel: 65 gal. / 246 L
+  Seating: 16 persons
+  Ballast: 3,000 lbs. / 1361 kg
+  Engine: INDMAR Raptor 6.2L 400

@@ -1,0 +1,62 @@
+
+{% assign specs = site.data.specifications.["f21-tomcat"] %}
+
+<div class="model-bot gradient-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table d-block mx-auto">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <h4 class="d-inline-block mb-3">Specification</h4>
+                            </th>
+                            <th scope="col">
+                                <h4 class="d-inline-block mb-3">Availability</h4>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/length.png" alt="Length"> Length</th>
+                            <td>{{ specs.Length }}</td>
+                        </tr>
+                        <tr class="tx-red">
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/beam.png" alt="Beam"> Beam</th>
+                            <td>{{ specs.Beam }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/draft.png" alt="Draft"> Draft</th>
+                            <td>{{ specs.Draft }}</td>
+                        </tr>
+                        <tr class="tx-red">
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/weight.png" alt="Weight"> Weight</th>
+                            <td>{{ specs.Weight }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/fuel-capacity.png" alt="Fuel Capacity"> Fuel Capacity</th>
+                            <td>{{ specs.Fuel }}</td>
+                        </tr>
+                        <tr class="tx-red">
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/seating-capacity.png" alt="Seating Capacity"> Seating Capacity</th>
+                            <td>{{ specs.Seating }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/ballast.png" alt="Ballast"> Ballast</th>
+                            <td>{{ specs.Ballast }}</td>
+                        </tr>
+                        <tr class="tx-red">
+                            <th scope="row">
+                                <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/engine.png" alt="Engine"> Engine</th>
+                            <td>{{ specs.Engine }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>

@@ -1,21 +1,89 @@
-<footer>
-    <div class="first">
-        <div class="container text-center">
-            <p>
-                <a href="/downloads">Downloads</a> |
-                <a href="/faq">FAQ</a> |
-                <a href="/contact">Contact Us</a> |
-                <a href="http://www.mbboatowners.com/" target="_blank" >Community</a> |
-                <a href="/events">Events</a>
-            </p>
-            <p>
-                <a target="_blank" href="{{ site.author.facebook }}"><i class="fa fa-facebook-official fa-2x" style="color:#3B5998 "></i></a>
-                <a target="_blank" href="{{ site.author.youtube }}"><i class="fa fa-youtube-play fa-2x" style="color:#b31217"></i></a>
-                <a target="_blank" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter-square fa-2x" style="color:#55acee"></i></a>
-            </p>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-5 col-lg-4">
+                <img class="footer-logo img-fluid" src="https://mbsportsstorage.blob.core.windows.net/website-images/mb-logo.svg" alt="Logo" width="300">
+                <!-- footer logo -->
+
+                <div class="d-flex footer-info tx-15 w-100">
+                    <div class="col-6">
+                        <p class="mb-0 tx-red tx-crimsontext fw-700">Address:</p>
+                        <p class="tx-gray tx-myriadpro">{{ site.author.address }}
+                            <br>{{ site.author.city }}, {{ site.author.state }} {{ site.author.zip }}</p>
+                    </div>
+                    <div class="col-6 pl-md-2">
+                        <p class="mb-0 tx-red tx-crimsontext fw-700">Phone:</p>
+                        <p class="mb-0 tx-gray tx-myriadpro"><a href="tel://{{ site.author.phone | replace: " ", "" | replace: "-", "" | replace: ".", "" }}">{{ site.author.phone }}</a></p>
+                        <p class="mb-0 tx-red tx-crimsontext fw-700">Fax:</p>
+                        <p class="tx-gray tx-myriadpro"><a href="tel://{{ site.author.fax | replace: " ", "" | replace: "-", "" | replace: ".", "" }}">{{ site.author.fax }}</a></p>
+                    </div>
+                    <!-- footer info -->
+                </div>
+
+                <div class="social-media-footer d-flex pl-3">
+                    <a class="text-white d-flex align-items-center justify-content-center" href="{{ site.author.facebook }}" target="_blank">
+                        <i class="ion-social-facebook"></i>
+                    </a>
+                    <!-- facebook -->
+                    <a class="text-white d-flex align-items-center justify-content-center" href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
+                        <i class="ion-social-twitter"></i>
+                    </a>
+                    <!-- twitter -->
+                    <a class="text-white d-flex align-items-center justify-content-center" href="{{ site.author.youtube }}" target="_blank">
+                        <i class="ion-social-youtube"></i>
+                    </a>
+                    <!-- youtube -->
+                </div>
+                <!-- social media footer -->
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-4 mt-3 pt-3 pl-lg-4">
+                <h6 class="fw-700 mb-4">NAVIGATION</h6>
+                <ul class="footer-nav list-unstyled fw-200 tx-14">
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Standards</a>
+                    </li>
+                    <li>
+                        <a href="./models.html">Models</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Find a Dealer</a>
+                    </li>
+                    <li>
+                        <a href="./select.html">Build Your MB</a>
+                    </li>
+                </ul>
+                <!-- footer nav -->
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 mt-3 pt-3">
+                <h6 class="fw-700 mb-4">CONTACT US</h6>
+                <form class="footer-form">
+                    <input type="text" class="form-control tx-12 text-white" placeholder="Your Name:">
+                    <input type="email" class="form-control tx-12 text-white" placeholder="Your E-Mail*:" required>
+                    <textarea class="form-control tx-12 text-white" placeholder="Message*:" rows="4" required></textarea>
+                    <button type="submit" class="btn red-bg fw-700 tx-12 text-white mx-auto d-block ml-md-0">SUBMIT</button>
+                </form>
+                <!-- footer form -->
+            </div>
         </div>
     </div>
-    <div class="second text-center">
-          Copyright &copy; 2015 MB Sports. All rights reserved.
-    </div>
 </footer>
+<!-- footer -->
+
+<div class="copyright">
+    <div class="container">
+        <p class="text-center fw-300 m-0 tx-14">Copyright © 2018
+            <span class="tx-red fw-700">MB Sports.</span> All rights reserved.</p>
+    </div>
+</div>
+<!-- copyright -->

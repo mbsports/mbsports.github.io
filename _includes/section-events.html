@@ -1,0 +1,28 @@
+<div class="our-events gradient-black">
+    <div class="container">
+        <h1 class="text-center fw-700 mb-0">
+            <span class="fw-100">OUR</span> EVENTS</h1>
+        <h4 class="text-center tx-crimsontext font-italic fw-400">Be a part of our growing community</h4>
+        <div class="row text-center text-md-left">
+            {% assign filteredEvents = site.events | where:"country",site.country %}
+            {% for event in filteredEvents limit:3 %}
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="event-cont w-100 mx-auto">
+                    <img class="img-fluid w-100" src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/home/events-1.jpg" alt="">
+                    <h3 class="tx-red fw-100 mt-1 mb-2">{{ event.title }}</h3>
+                    <p class="fw-200 tx-14">
+                        {{ event.content }}
+                        <a class="fw-800 tx-red" href="{{ event.event_url }}" target="_blank">More >></a>
+                    </p>
+                </div>
+                <!-- event cont -->
+            </div>
+            {% else %}
+            There are no events going on right now. Please check back with us again.
+            {% endfor %}
+        </div>
+        <img class="mx-auto d-block img-fluid" src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/anchor.png" alt="" width="320">
+        <!-- anchor -->
+    </div>
+</div>
+<!-- our-events -->

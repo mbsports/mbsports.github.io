@@ -45,7 +45,7 @@ defaults:
       path: ""
       type: slides
     values:
-      layout: slide
+      layout: slide-model
       ratio_2x: true
       ratio_4x: true
       render_targets: true

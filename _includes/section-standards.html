@@ -1,0 +1,34 @@
+{% assign slideFilter = {{include.filter}} %}
+{% assign slides = site.slides | where:"tag",slideFilter | sort:"sort-order" %}
+
+
+<div class="our-standards text-center">
+    <h1 class="border-bot position-relative">OUR STANDARDS</h1>
+    <div id="carouselOurStandards" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Wrapper for slides -->
+            {% assign counter = 0 %}
+            <div class="carousel-inner" role="listbox">
+                {% for slide in slides %}
+                <div class="carousel-item{% if counter == 0 %} active{% endif %}">{{ slide.output }}</div>
+                <!-- carousel item -->
+                {% capture counter %}{{counter | plus: 1}}{% endcapture %}
+                {% else %}
+                    <li>there are no items.</li>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- carousel inner -->
+        {% assign counter = 0 %}
+        <ol class="carousel-indicators position-static mb-0">
+          {% for slide in slides %}
+          <li data-target="#carouselOurStandards" data-slide-to="{{counter}}" class="{% if counter == 0 %}active{% endif %}"></li>
+          {% capture counter %}{{counter | plus: 1}}{% endcapture %}
+          {% else %}
+              <li>there are no items.</li>
+          {% endfor %}
+        </ol>
+        <!-- carousel indicators -->
+    </div>
+</div>
+<!-- our standards -->

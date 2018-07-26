@@ -1,10 +1,17 @@
-{% include picture.html src=page.image alt=page.title ratio_2x=page.ratio_2x ratio_4x=page.ratio_4x render_targets=page.render_targets %}
-<div class="caption {{page.caption-style}}">
-    <h2>{{ page.title }}</h2>
-    {{ content }}
+<!-- carousel item -->
+<div class="carousel-item">
+    <div class="carousel-bg home-bg"  style="background-image: url('{{ page.image }}')">
+        <div class="carousel-border mx-auto text-center position-relative border-bottom-0">
+            <h1 class="mx-auto">{{ page.title }}</h1>
+            <p class="tx-crimsontext font-italic mx-auto">{{ content }}</p>
+            <div class="bottom-left-border position-absolute"></div>
+            <div class="bottom-right-border position-absolute"></div>
+            <div class="border-btn w-100 position-absolute">
+                <button type="button" class="btn btn-outline-primary mx-auto text-uppercase fw-700 tx-14 text-white">Watch</button>
+            </div>
+        </div>
+        <!-- carousel border -->
+    </div>
+    <!-- carousel bg -->
 </div>
-{% if page.video %}
-<div class="video">
-    <a href="{{ page.video }}" target="_blank"><i class="fa fa-play-circle-o fa-5x"></i></a>
-</div>
-{% endif %}
+<!-- carousel item -->

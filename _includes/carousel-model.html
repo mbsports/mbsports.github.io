@@ -1,0 +1,47 @@
+{% assign slideFilter = {{include.filter}} %}
+{% assign slides = site.slides | where:"tag",slideFilter | sort:"sort-order" %}
+
+<div class="carousel-model position-relative">
+    <div id="carouselModel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Wrapper for slides -->
+            {% assign counter = 0 %}
+            {% for slide in slides %}
+            <div class="carousel-item{% if counter == 0 %} active{% endif %}">{{ slide.output }}</div>
+            <!-- carousel item -->
+            {% capture counter %}{{counter | plus: 1}}{% endcapture %}
+            {% else %}
+            <li>there are no items.</li>
+            {% endfor %}
+        </div>
+
+        <!-- carousel inner -->
+        {% assign counter = 0 %}
+        <ol class="carousel-indicators">
+          {% for slide in slides %}
+          <li data-target="#carouselModel" data-slide-to="{{counter}}" class="{% if counter == 0 %}active{% endif %}"></li>
+          {% capture counter %}{{counter | plus: 1}}{% endcapture %}
+          {% else %}
+              <li>there are no items.</li>
+          {% endfor %}
+        </ol>
+        <!-- carousel indicators -->
+
+        <a class="carousel-control-prev" href="#carouselModel" role="button" data-slide="prev">
+            <i class="ion-ios-arrow-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- carousel control prev -->
+
+        <a class="carousel-control-next" href="#carouselModel" role="button" data-slide="next">
+            <i class="ion-ios-arrow-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
+        <!-- carousel control next -->
+    </div>
+
+    <img class="boat-white position-absolute img-fluid" src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/models/boat-white.png" alt="">
+    <img class="arrow-bot position-absolute img-fluid w-100" src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/arrow-bg.png" alt="">
+</div>
+<!-- carousel model -->

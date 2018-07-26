@@ -1,0 +1,66 @@
+{% assign slideFilter = {{include.filter}} %}
+{% assign slides = site.slides | where:"tag",slideFilter | sort:"sort-order" %}
+
+<div id="carouselHome" class="carousel carousel-home slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="carousel-bg home-bg" style="background-image: url(https://mbsportsstorage.blob.core.windows.net/website-images/2018/home/home-bg.jpg)">
+                <div class="carousel-border mx-auto text-center position-relative border-bottom-0">
+                    <h1 class="mx-auto">The Art of Boat Making</h1>
+                    <p class="tx-crimsontext font-italic mx-auto">MB Sports has always been synonymous with quality</p>
+                    <div class="bottom-left-border position-absolute"></div>
+                    <div class="bottom-right-border position-absolute"></div>
+                    <div class="border-btn w-100 position-absolute">
+                        <button type="button" class="btn btn-outline-primary mx-auto text-uppercase fw-700 tx-14 text-white">Free Consultation</button>
+                    </div>
+                </div>
+                <!-- carousel border -->
+            </div>
+            <!-- carousel bg -->
+        </div>
+
+
+
+
+        {% for slide in slides %}
+        {{ slide.output | remove: '<p>' | remove: '</p>' }}
+        {% capture counter %}{{counter | plus: 1}}{% endcapture %}
+        {% else %}
+            <li>there are no items.</li>
+        {% endfor %}
+    
+
+        <!-- carousel item -->
+        <div class="carousel-item">
+            <div class="carousel-bg home-bg"  style="background-image: url(https://mbsportsstorage.blob.core.windows.net/website-images/2018/home/home-bg.jpg)">
+                <div class="carousel-border mx-auto text-center position-relative border-bottom-0">
+                    <h1 class="mx-auto">The Art of Boat Making</h1>
+                    <p class="tx-crimsontext font-italic mx-auto">MB Sports has always been synonymous with quality</p>
+                    <div class="bottom-left-border position-absolute"></div>
+                    <div class="bottom-right-border position-absolute"></div>
+                    <div class="border-btn w-100 position-absolute">
+                        <button type="button" class="btn btn-outline-primary mx-auto text-uppercase fw-700 tx-14 text-white">Free Consultation</button>
+                    </div>
+                </div>
+                <!-- carousel border -->
+            </div>
+            <!-- carousel bg -->
+        </div>
+        <!-- carousel item -->
+
+
+
+    </div>
+    <!-- carousel inner -->
+    <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+        <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/home/arrow-left.png" alt="Previous" width="55">
+        <span class="sr-only">Previous</span>
+    </a>
+    <!-- carousel control previous -->
+    <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+        <img src="https://mbsportsstorage.blob.core.windows.net/website-images/2018/home/arrow-right.png" alt="Next" width="55">
+        <span class="sr-only">Next</span>
+    </a>
+    <!-- carousel control next -->
+</div>
+<!-- carousel-home -->
