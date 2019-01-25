@@ -1,5 +1,5 @@
 ---
-title: 2019 Calgary Boat Show  
+title: 2019 Calgary Boat Show  2/7/19 - 2/10/19
 event_url: https://calgaryboatandsportshow.ca/
 country: US
 ---
